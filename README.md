@@ -1,50 +1,150 @@
-# Welcome to your Expo app 👋
+# 📊 Finance Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern **Finance Tracker mobile application** built using **React Native (Expo)** to help users manage and track their daily expenses with a clean and intuitive UI.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 💳 Beautiful gradient card UI
+* 📊 Track expenses (Weekly & Monthly)
+* 🔄 Toggle between views
+* 🔔 Notification icon with badge
+* 📱 Fully responsive mobile design
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+tuf/
+ └── finance-tr/
+      ├── app/
+      ├── assets/
+      │    └── images/
+      │         └── screenshot.png
+      ├── components/
+      ├── package.json
+      └── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🛠 Tech Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+* React Native (Expo)
+* JavaScript
+* Expo Linear Gradient
+* Expo Vector Icons
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## ⚙️ Installation & Setup
 
-Join our community of developers creating universal apps.
+### 1️⃣ Clone the Repository
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+git clone <your-repository-link>
+```
+
+---
+
+### 2️⃣ Go to Project Folder
+
+```bash
+cd finance-tr
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 4️⃣ Start the App
+
+```bash
+npm start
+```
+
+---
+
+## 📱 Run App on Mobile (Expo)
+
+1. Install **Expo Go** app on your phone:
+
+   * Android → Play Store
+   * iOS → App Store
+
+2. Run the app using:
+
+```bash
+npm start
+```
+
+3. A **QR Code** will appear in your terminal or browser.
+
+4. Open **Expo Go** → Scan the QR code
+
+5. 🎉 Your app will run on your mobile device
+
+---
+
+## 📸 Screenshots
+
+### App Preview
+
+<p align="center">
+  <img src="assets/images/screenshot.png" width="300" />
+</p>
+
+---
+
+## 🧠 How Screenshots Work
+
+* Store images inside: `assets/images/`
+* Use this syntax in README:
+
+```md
+![Screenshot](assets/images/screenshot.png)
+```
+
+* For better UI, use HTML:
+
+```html
+<img src="assets/images/screenshot.png" width="300" />
+```
+
+---
+
+## ⚠️ Common Issues
+
+* ❌ Image not showing → check file path
+* ❌ Wrong file name (case-sensitive)
+* ❌ Forgot to push images to GitHub
+
+---
+
+## 📌 Notes
+
+* Always run commands inside the **finance-tr** folder
+* Use a stable internet connection for Expo
+* If QR scan fails → use emulator (Android Studio / iOS Simulator)
+
+---
+
+## 👨‍💻 Author
+
+**Praveen Yadav**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share it!
+
+---

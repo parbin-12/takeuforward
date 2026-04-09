@@ -4,7 +4,7 @@
     "slug": "finance-tr",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/finance-tr/assets/images/Finance tracker app icon design.png",
     "scheme": "financetr",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
