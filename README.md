@@ -1,16 +1,18 @@
 # 📊 Finance Tracker App
 
-A modern **Finance Tracker mobile application** built using **React Native (Expo)** to help users manage and track their daily expenses with a clean and intuitive UI.
+Hey 👋
+This is my **Finance Tracker App** built using **React Native (Expo)**.
+The goal of this app is simple — help users track their expenses in a clean and easy way.
 
 ---
 
-## 🚀 Features
+## 🚀 What this app does
 
-* 💳 Beautiful gradient card UI
-* 📊 Track expenses (Weekly & Monthly)
-* 🔄 Toggle between views
+* 💳 Shows a beautiful card UI
+* 📊 Lets you track expenses (Weekly & Monthly)
+* 🔄 Switch between views easily
 * 🔔 Notification icon with badge
-* 📱 Fully responsive mobile design
+* 📱 Works smoothly on mobile devices
 
 ---
 
@@ -22,7 +24,11 @@ tuf/
       ├── app/
       ├── assets/
       │    └── images/
-      │         └── screenshot.png
+      │         ├── loginu.jpeg
+      │         ├── register.jpeg
+      │         ├── home.jpeg
+      │         ├── balance.jpg
+      │         └── profile.jpeg
       ├── components/
       ├── package.json
       └── README.md
@@ -30,7 +36,7 @@ tuf/
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Used
 
 * React Native (Expo)
 * JavaScript
@@ -39,17 +45,17 @@ tuf/
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ How to Run the App
 
-### 1️⃣ Clone the Repository
+### 1. Clone the repo
 
 ```bash
-git clone <your-repository-link>
+git clone <your-repo-link>
 ```
 
 ---
 
-### 2️⃣ Go to Project Folder
+### 2. Go inside the project
 
 ```bash
 cd finance-tr
@@ -57,7 +63,7 @@ cd finance-tr
 
 ---
 
-### 3️⃣ Install Dependencies
+### 3. Install all dependencies
 
 ```bash
 npm install
@@ -65,7 +71,7 @@ npm install
 
 ---
 
-### 4️⃣ Start the App
+### 4. Start the app
 
 ```bash
 npm start
@@ -73,67 +79,70 @@ npm start
 
 ---
 
-## 📱 Run App on Mobile (Expo)
+## 📱 Run on Your Phone
 
-1. Install **Expo Go** app on your phone:
-
-   * Android → Play Store
-   * iOS → App Store
-
-2. Run the app using:
-
-```bash
-npm start
-```
-
-3. A **QR Code** will appear in your terminal or browser.
-
-4. Open **Expo Go** → Scan the QR code
-
-5. 🎉 Your app will run on your mobile device
+1. Install **Expo Go** app
+2. Run `npm start`
+3. Scan the QR code
+4. App will open on your phone 🎉
 
 ---
 
-## 📸 Screenshots
+## 📸 App Screenshots
 
-### App Preview
+### 🔐 Login Screen
 
 <p align="center">
-  <img src="assets/images/screenshot.png" width="300" />
+  <img src="assets/images/loginu.jpeg" width="250" />
 </p>
 
 ---
 
-## 🧠 How Screenshots Work
+### 📝 Register Screen
 
-* Store images inside: `assets/images/`
-* Use this syntax in README:
-
-```md
-![Screenshot](assets/images/screenshot.png)
-```
-
-* For better UI, use HTML:
-
-```html
-<img src="assets/images/screenshot.png" width="300" />
-```
+<p align="center">
+  <img src="assets/images/register.jpeg" width="250" />
+</p>
 
 ---
 
-## ⚠️ Common Issues
+### 🏠 Home Screen
 
-* ❌ Image not showing → check file path
-* ❌ Wrong file name (case-sensitive)
-* ❌ Forgot to push images to GitHub
+<p align="center">
+  <img src="assets/images/home.jpeg" width="250" />
+</p>
+
+---
+
+### 💰 Balance Screen
+
+<p align="center">
+  <img src="assets/images/balance.jpg" width="250" />
+</p>
+
+---
+
+### 👤 Profile Screen
+
+<p align="center">
+  <img src="assets/images/profile.jpeg" width="250" />
+</p>
+
+---
+
+## ⚠️ Common Problems
+
+* Image not showing → check file name carefully
+* Path should be correct (`assets/images/...`)
+* Don’t forget to push images to GitHub
 
 ---
 
 ## 📌 Notes
 
-* Always run commands inside the **finance-tr** folder
-* Use a stable internet connection for Expo
-* If QR scan fails → use emulator (Android Studio / iOS Simulator)
+* Always run commands inside **finance-tr folder**
+* Internet is needed for Expo
+* If QR doesn’t work → try emulator
 
 ---
 
@@ -143,8 +152,8 @@ npm start
 
 ---
 
-## ⭐ Support
+## ⭐ If you like this project
 
-If you like this project, give it a ⭐ on GitHub and share it!
+Give it a ⭐ on GitHub — it really helps!
 
 ---
